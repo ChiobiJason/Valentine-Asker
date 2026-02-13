@@ -20,7 +20,7 @@ APP_EMAILJS_SERVICE_ID=your_service_id
 APP_EMAILJS_TEMPLATE_ID=your_template_id_for_you
 APP_EMAILJS_TEMPLATE_ID_CONFIRMATION=your_template_id_for_partner
 APP_EMAILJS_PUBLIC_KEY=your_public_key
-APP_EMAIL_TO_CHISOM=your_email@example.com
+APP_EMAIL_TO_JASON=your_email@example.com
 APP_EMAIL_TO_EFFIE=partner_email@example.com
 ```
 

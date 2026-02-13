@@ -46,20 +46,20 @@ const handleYesClick = () => {
 
   // 1. Send Email to Chisom (You)
   const templateParams = {
-    to_name: 'Chisom',
+    to_name: 'Jason',
     from_name: 'Effie',
     message: 'Congratulations! Effie said yes and would be your valentine! ❤',
-    email: import.meta.env.APP_EMAIL_TO_CHISOM
+    email: import.meta.env.APP_EMAIL_TO_JASON
   }
 
   emailjs.send(SERVICE_ID, TEMPLATE_ID, templateParams, { publicKey: PUBLIC_KEY })
-    .then(() => console.log('Email to Chisom sent!'))
-    .catch((err) => console.error('Failed to send to Chisom:', err))
+    .then(() => console.log('Email to Jason sent!'))
+    .catch((err) => console.error('Failed to send to Jason:', err))
 
   // 2. Send Email to Effie (Confirmation)
   const effieParams = {
     to_name: 'Effie',
-    from_name: 'Chisom',
+    from_name: 'Jason',
     message: 'You said YES! I am so happy!',
     email: import.meta.env.APP_EMAIL_TO_EFFIE
   }
