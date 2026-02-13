@@ -3,7 +3,7 @@ import ValentineAsker from './components/ValentineAsker.vue'
 </script>
 
 <template>
-  <ValentineAsker />
+  <ValentineAsker />  
 </template>
 
 <style>
