@@ -1,8 +1,10 @@
 <script setup>
 import ValentineAsker from './components/ValentineAsker.vue'
+import FallingRoses from './components/FallingRoses.vue'
 </script>
 
 <template>
+  <FallingRoses />
   <ValentineAsker />  
 </template>
 
